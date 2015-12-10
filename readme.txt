@@ -1,38 +1,38 @@
-=== Woo Email Domain Blacklist ===
+=== Woo EDD Email Domain Blacklist ===
 Contributors: kowsar89
-Tags: woocommerce, email, domain, block, blacklist, checkout
+Tags: woocommerce, woo, email, domain, block, blacklist, checkout, easy, digital, downloads, edd
 Requires at least: 3.0.1
 Tested up to: 4.3.1
-Stable tag: 1.0.1
+Stable tag: 2.0.0
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-A lightweight plugin to block any email domain from WooCommerce checkout page
+A lightweight plugin to block any email domain from WooCommerce and Easy Digital Download checkout page
 
 == Description ==
 Ever wanted to prevent users using temporary or disposable emails in checkout page? With this plugin, you can!
 
 There are many websites (eg. 10minutemail.net, guerrillamail.com etc) which provides temporary email service. These websites use many different domain names in their temporary email addresses. All you have to do is, put these domain names in this plugin's settings page. After that when a user will try to place an order using the blacklisted email domain, checkout process will be interrupted and user will see an error notice.
 
-You can configure the plugin settings from "WooCommerce>Email Blacklist" menu from admin panel.
+You can configure the plugin settings from "Settings>Woo EDD Email Blacklist" menu from admin panel.
 
-If you have no idea how many temporary domain names exists out there and you want to block all of them anyway, you can enable the option "External blacklist" from plugin settings. I have already created a list of temporary domain names and kept it in my server, enabling this option will pull that list from my server and store it in your database. I will try to update this list in regular intervals. For more information, please read the FAQ section.
+If you have no idea how many temporary domain names exists out there and you want to block all of them anyway, you can enable the option "External blacklist" from plugin settings. I have already created a list of temporary domain names and kept it in my server, enabling this option will pull that list from my server and store it in your database. I will try to update this list in regular intervals. For more information, please read the [FAQ](https://wordpress.org/plugins/woo-email-domain-blacklist/faq/) section.
 
 == Installation ==
 
 = From your WordPress dashboard =
 
 1. Visit 'Plugins > Add New'
-2. Search for 'Woo Email Domain Blacklist'
-3. Activate 'Woo Email Domain Blacklist' from your Plugins page.
+2. Search for 'Woo EDD Email Domain Blacklist'
+3. Activate 'Woo EDD Email Domain Blacklist' from your Plugins page.
 
 = From WordPress.org =
 
-1. Download 'Woo Email Domain Blacklist'.
-2. Upload the 'woocommerce-foa-email-blacklist' directory to your '/wp-content/plugins/' directory, using your favorite method (ftp, sftp, scp, etc...)
-3. Activate 'Woo Email Domain Blacklist' from your Plugins page.
+1. Download 'Woo EDD Email Domain Blacklist'.
+2. Upload the 'woo-email-domain-blacklist' folder to your '/wp-content/plugins/' directory, using your favorite method (ftp, sftp, scp, etc...)
+3. Activate 'Woo EDD Email Domain Blacklist' from your Plugins page.
 
-After that you can configure the plugin settings from "WooCommerce>Email Blacklist" menu from admin panel.
+After that you can configure the plugin settings from "Settings>Woo EDD Email Blacklist" menu from admin panel.
 
 == Frequently Asked Questions ==
 
@@ -58,12 +58,14 @@ Please use the support section. Alternatively you can contribute on [this Github
 **Important Note: When you send me temporary email domain list, please also mention the website name where you found them**
 
 == Screenshots ==
-1. From admin panel, Click on "Woocommerce>Email Blacklist" to visit the plugin settings page.
+1. From admin panel, Click on "Settings>Woo EDD Email Blacklist" to visit the plugin settings page.
 2. In checkout page, when users will use blacklisted email, they'll see an error notice.
 
 == Changelog ==
+= 2.0.0: December 12, 2015 =
+* New: Easy Digital Download support added
 
-= 1.0.1: December 10, 2015=
+= 1.0.1: December 10, 2015 =
 * New: Cron job added
 * Tweak: Language updated
 

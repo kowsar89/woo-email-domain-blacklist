@@ -1,8 +1,8 @@
 <?php
 
-if ( class_exists('FOA_Woo_Email_Domain_Blacklist_Admin' ) ) return;
+if ( !class_exists('FOA_Email_Domain_Blacklist_Admin' ) ):
 
-class FOA_Woo_Email_Domain_Blacklist_Admin {
+class FOA_Email_Domain_Blacklist_Admin {
     
     private static $instance = null;
     public $plugin_slug = 'woo-email-domain-blacklist';
@@ -10,7 +10,7 @@ class FOA_Woo_Email_Domain_Blacklist_Admin {
 
     private function __construct() {
 
-        $this->settings_api = new Foa_Email_Blacklist_Settings_API;
+        $this->settings_api = new FOA_Email_Blacklist_Settings_API;
 
         add_action( 'admin_init', array($this, 'admin_init') );
         add_action( 'admin_menu', array($this, 'admin_menu') );
@@ -27,7 +27,7 @@ class FOA_Woo_Email_Domain_Blacklist_Admin {
 
     // Settings link for plugin page
     public function plugin_settings_link($links) {
-        $settings_link = '<a href="admin.php?page='.$this->plugin_slug.'">Settings</a>';
+        $settings_link = '<a href="'. esc_url( get_admin_url(null, "options-general.php?page=$this->plugin_slug") ) .'">'.__('Settings', 'woo-email-domain-blacklist').'</a>';
         array_unshift($links, $settings_link);
         return $links;
     }
@@ -43,14 +43,14 @@ class FOA_Woo_Email_Domain_Blacklist_Admin {
     }
 
     public function admin_menu() {
-        add_submenu_page( 'woocommerce', 'Email Blacklist', 'Email Blacklist', 'manage_options', $this->plugin_slug, array($this, 'plugin_page') );
+        add_options_page( 'Email Blacklist', 'Woo EDD Email Blacklist', 'manage_options', $this->plugin_slug, array($this, 'plugin_page') );
     }
 
     public function get_settings_sections() {
         $sections = array(
             array(
                 'id' => 'foa_wc_email_blacklist',
-                'title' => __( 'Email Blacklist', 'woo-email-domain-blacklist' )
+                'title' => __( 'Woo EDD Email Blacklist', 'woo-email-domain-blacklist' )
             )
         );
 
@@ -147,3 +147,5 @@ class FOA_Woo_Email_Domain_Blacklist_Admin {
     }
 
 }
+
+endif;
