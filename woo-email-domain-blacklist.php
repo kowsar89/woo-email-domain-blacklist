@@ -17,7 +17,7 @@ if ( ! defined( 'WPINC' ) ) die;
 define('WEDBFOA_BASENAME', plugin_basename(__FILE__));
 
 if ( is_admin() ):
-	require_once dirname( __FILE__ ) . '/admin/class.settings-api.php';
+require_once dirname( __FILE__ ) . '/admin/class.settings-api.php';
 	require_once dirname( __FILE__ ) . '/admin/email-blacklist-admin.php';
 	FOA_Email_Domain_Blacklist_Admin::instance();
 endif;
