@@ -1,4 +1,4 @@
-=== Woo EDD Email Domain Blacklist ===
+=== Email Domain Blacklist for WooCommerce and EDD ===
 Contributors: kowsar89
 Tags: woocommerce, woo, email, domain, block, blacklist, checkout, easy, digital, downloads, edd
 Requires at least: 3.0.1
@@ -23,14 +23,14 @@ If you have no idea how many temporary domain names exists out there and you wan
 = From your WordPress dashboard =
 
 1. Visit 'Plugins > Add New'
-2. Search for 'Woo EDD Email Domain Blacklist'
-3. Activate 'Woo EDD Email Domain Blacklist' from your Plugins page.
+2. Search for 'Email Domain Blacklist for WooCommerce and EDD'
+3. Activate 'Email Domain Blacklist for WooCommerce and EDD' from your Plugins page.
 
 = From WordPress.org =
 
-1. Download 'Woo EDD Email Domain Blacklist'.
+1. Download 'Email Domain Blacklist for WooCommerce and EDD'.
 2. Upload the 'woo-email-domain-blacklist' folder to your '/wp-content/plugins/' directory, using your favorite method (ftp, sftp, scp, etc...)
-3. Activate 'Woo EDD Email Domain Blacklist' from your Plugins page.
+3. Activate 'Email Domain Blacklist for WooCommerce and EDD' from your Plugins page.
 
 After that you can configure the plugin settings from "Settings>Woo EDD Email Blacklist" menu from admin panel.
 

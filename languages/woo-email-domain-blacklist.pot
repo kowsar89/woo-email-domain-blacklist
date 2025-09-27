@@ -1,8 +1,8 @@
-# Copyright (C) 2015 Woo EDD Email Domain Blacklist
-# This file is distributed under the same license as the Woo EDD Email Domain Blacklist package.
+# Copyright (C) 2015 Email Domain Blacklist for WooCommerce and EDD
+# This file is distributed under the same license as the Email Domain Blacklist for WooCommerce and EDD package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Woo EDD Email Domain Blacklist 2.0.0\n"
+"Project-Id-Version: Email Domain Blacklist for WooCommerce and EDD 2.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-email-domain-"
 "blacklist\n"
 "POT-Creation-Date: 2015-12-10 18:39:50+00:00\n"
@@ -67,7 +67,7 @@ msgid "Run Weekly"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "Woo EDD Email Domain Blacklist"
+msgid "Email Domain Blacklist for WooCommerce and EDD"
 msgstr ""
 
 #. Plugin URI of the plugin/theme

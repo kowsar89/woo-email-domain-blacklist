@@ -1,4 +1,4 @@
-# Woo EDD Email Domain Blacklist
+# Email Domain Blacklist for WooCommerce and EDD
 A lightweight plugin to block any email domain from WooCommerce and Easy Digital Download checkout page
 
 For more details, visit this plugin page in wordpress repository:
