@@ -3,7 +3,7 @@
  * Plugin Name: Email Domain Blacklist for WooCommerce and EDD
  * Plugin URI: http://kowsarhossain.com/
  * Description: A lightweight plugin to block any email domain from WooCommerce and Easy Digital Download checkout page
- * Version: 2.0.0
+ * Version: 2.0.1
  * Author: Md. Kowsar Hossain
  * Author URI: http://kowsarhossain.com
  * Text Domain: woo-email-domain-blacklist

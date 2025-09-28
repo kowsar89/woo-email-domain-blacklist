@@ -3,7 +3,7 @@ Contributors: kowsar89
 Tags: woocommerce, woo, email, domain, block, blacklist, checkout, easy, digital, downloads, edd
 Requires at least: 3.0.1
 Tested up to: 5.2
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -62,6 +62,10 @@ Please use the support section. Alternatively you can contribute on [this Github
 2. In checkout page, when users will use blacklisted email, they'll see an error notice.
 
 == Changelog ==
+
+= 2.0.1: Sep 28, 2025 =
+* Tweak: Plugin name updated
+
 = 2.0.0: December 12, 2015 =
 * New: Easy Digital Download support added
 
